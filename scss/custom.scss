@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+section{
+    background-color: rgba(255, 192, 203, 0.233);
+}
+
+#showcase{
+    background: url(../pics/main.jpg) center / cover no-repeat;
+    min-height: 750px;
+    position: relative;    
+    font-family: 'Lobster', cursive;
+    #header {
+        z-index: 2;
+        #reservation {
+            background: #ffffff36;
+        }
+    }
+}
+.navbar{
+    z-index: 3;
+    .navbar-brand h3{
+        // font-weight: 100;
+        font-family: 'Lobster', cursive;
+        color: #c26b78;
+    }
+    .nav-item{
+        font-size: 1.4rem;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid #ec8d9b;
+    }
+}
+
+@media (max-width:768px){
+    #heather{
+            .btn:hover{
+                color: #f08080;
+            }
+    }
+    .navbar{
+        background: #1f1f1f;
+        .nav-link:hover{
+            border:none;
+        }
+    }
+}
